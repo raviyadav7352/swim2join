@@ -1,0 +1,188 @@
+nav.navbar {
+    height: 4rem;
+}.company-name.fs28 {
+    color: #9c27b0;
+}
+.nav-list-item:hover, .active{
+    background-color: rgb(63, 74, 197);
+    color: #fff;
+}
+
+.nav-list-item {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    min-width: 5rem;
+}
+.big-img {
+    height: 26rem;
+    overflow: hidden;
+}
+.card-body {
+    height: 100%;
+    width: 20%;
+    padding:10px 30px 10px 10px;
+    position: relative;
+    color: #fff;
+}
+.card-head{margin-bottom: 10px;}
+.card-body:nth-child(1){background-color:#ddae59 ;}
+.card-body:nth-child(2){background-color:#2846cb ;}
+.card-body:nth-child(3){background-color:#da7640 ;}
+.card-body:nth-child(4){background-color:#3b96d2 ;}
+.card-head{text-transform: capitalize;}
+.small-card {
+    height: 13rem;  
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    bottom: 53px;
+}
+
+.main-img {
+    min-height: 34rem;
+}
+.arrow-right {
+    position: absolute;
+    right: 1px;
+    bottom: 2px;
+    color: #fff;
+    cursor: pointer;
+}
+.arrow-right:hover{
+    color: #d1a5d9;
+}
+.arrow-right:active{transform: scale(1.2);}
+.card2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    overflow: hidden;
+    width: 90%;
+    margin: auto;
+    grid-gap:20px 10px;
+}
+.card2body {
+    padding: 30px 20px;
+    background-color: #e3ebec;
+}
+.sw-btn  {
+    
+    border: 0;
+    padding: 10px 20px;
+    color: #fff;
+    margin-top: 16px;
+    opacity: .8;
+    transition: all .12s;
+}
+.sw-btn:hover{
+    opacity: 1;
+}
+.sw-btn:active{
+    transform: scale(.95);
+}
+.btn-primary{
+    background: linear-gradient(54deg, #24d516, #e80b3ead);
+}
+.btn-plain{
+    background-color: #fff;
+    color: #000;
+}
+.card2-head {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.card2-text{text-align: justify;}
+.card3 {
+    height: 19rem;
+    background: aliceblue;
+    background-image: url(image/swim1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 20px;
+    position: relative;
+}
+
+.card3-body {
+    background: linear-gradient(355deg, #e81b1b, #6e2d2dad);
+    height: 100%;
+    width: 40%;
+    color: #fff;
+    margin-left: 30px;
+    padding: 20px;
+}
+
+h2.card3-text {
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+.card4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin: 20px auto;
+}
+.card4-body {
+    padding: 40px;
+    background: linear-gradient(45deg, #d01515, #cddc39);
+    color: #fff;
+}
+.card5 {
+    margin: 20px auto;
+    width: 90%;
+    overflow: hidden;
+}
+.card5-body {
+    width: 20%;
+    min-height: 15rem;
+}
+
+.card5-img-body {position: relative;height: 24%;}
+img.card-img {
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    bottom: -27px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.card5-content {
+    background-color: aliceblue;
+    padding: 30px 10px 10px;
+    overflow: hidden;
+    font-size: 14px;
+    height: 100%;
+    line-height: 1.5;
+}
+.header-card5 {
+    color: #dc5252;
+    margin-block:10px 6px;
+}
+.card6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 22rem;
+    gap: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.card6-location {
+    height: 100%;
+    overflow: hidden;
+}
+.card6-body {
+    background: #4d4dd8;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-height: 100%;
+}
+.icons{cursor: pointer;}
